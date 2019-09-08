@@ -39,18 +39,28 @@
         float: left;
     }
 
-    .mainnav li {
+    .mainnav li a {
         margin-left: 5px;
         border-left: 1px solid gray;
+        font-size: 12px;
+        color: gray;
 
     }
-
     .sidenav {
         margin-left: 240px;
         width: 431px;
         height: 24px;
         /* border: 1px solid #000; */
         float: left;
+    }
+    .sidenav li a {
+        margin-left: 5px;
+        font-size: 12px;
+        color: gray;
+    }
+    
+    .sidenav span{
+        color: red;
     }
 
     .header {
@@ -65,13 +75,15 @@
     .top {
         width: 1240px;
         height: 107px;
-        border: 1px solid #000;
+         border: 1px solid rgb(231, 228, 228); 
         margin: 0 auto;
 
     }
 
     .top input {
         margin: 5px;
+        width: 130px;
+        height: 15px;
     }
 
     .first {
@@ -90,45 +102,38 @@
     }
 
     .find {
-        width: 40px;
-        height: 26px;
-        /* border: 1px solid #000; */
+        width: 27px;
+        height: 13px;
+        border: 1px solid #000;
         position: absolute;
-        top: 17px;
-        right: 0px;
+        top: 23px;
+        right: 44px;
+        background-color:rgb(230, 230, 230);
+        font-size: 12px;
     }
 
     .cust {
         background: url(he.png);
         background-position: -175px -63px;
-        width: 76px;
+        width: 216px;
         height: 15px;
     }
 
-    .cust1 {
-        width: 138px;
-        height: 22px;
-        border: 1px solid #000;
-        position: absolute;
-        top: 41px;
-        right: 5px;
-    }
-
-    .cust1 a {
-        font-size: 12px;
-        color: gray;
-        margin-right: 3px;
-        margin-left: 7px;
-    }
-
+    
     .first img {
-        margin-top: 5px;
+        margin-top: 13px;
     }
 
     .f1 span {
         color: red;
         font-size: 12PX;
         margin-left: 10PX;
+    }
+    .f1 a{
+        color:gray;
+        font-size: 12px;
+        display: inline;
+        text-decoration: none;
     }
 
     .second {
@@ -147,13 +152,19 @@
 
     }
 
+    .top2 img{
+        margin-top: 5px;
+    }
+
     .top3 {
         width: 492px;
         height: 490px;
         margin-left: 10px;
         float: left;
     }
-
+    .top3 img{
+        margin-top: 5px;
+    }
     .top31 {
         width: 492px;
         height: 30px;
@@ -171,6 +182,9 @@
         margin-right: 20px;
         border-left: 1px solid gray;
         border-right: 1px solid gray;
+    }
+    .top31 a{
+        color: gray;
     }
 
     .top31 li a:hover {
@@ -208,16 +222,32 @@
         width: 296px;
         height: 916px;
         border: 1px solid #000;
+        float: left;
     }
-
+    
+    .top4 img{
+        /* margin-top: 5px; */
+        margin: 5px auto;
+    }
     .top41{
         width: 250px;
         height: 30px;
         border: 1px solid #000;
     }
 
+   .top5{
+       width: 240px;
+       height: 100px;
+       border: 1px solid #000;
+       float: left;
 
+   }
 
+   .top51{
+        width: 250px;
+        height: 30px;
+        border: 1px solid #000;
+    }
 
 
 </style>
@@ -238,7 +268,7 @@
         </div>
         <div class="sidenav">
             <ul>
-                <li> <a href=""> 購物車 </a> </li>
+                <li> <a href=""> <span>購物車</span> </a> </li>
                 <li> <a href=""> PcHome聯名卡 </a> </li>
                 <li> <a href=""> 折價券 </a> </li>
                 <li> <a href=""> 儲值 </a> </li>
@@ -255,18 +285,13 @@
 <div class="top">
     <div class="first">
         <div class="f1">
-            設首頁 <span>購物滿$490 免運費</span>
+           <a href="">設首頁    </a>    
+            <span>購物滿$490 免運費</span>
         </div>
         <input type="text">
         <div class="find">搜尋</div>
         <div class="cust"></div>
-        <div class="cust1">
-            <ul>
-                <li><a href="">查訂單</a></li>
-                <li><a href="">退貨</a></li>
-                <li><a href="">追蹤清單</a></li>
-            </ul>
-        </div>
+        
         <img src="disc.jpg" width="220px" height="17px">
     </div>
     <div class="second">
@@ -395,16 +420,44 @@
             <li><a href="">生活百貨</a></li>   
         </ul>
     </div>
-    
 
-
-
-
-
-
-
-
-
+    <img src="b18.jpg" width="250" height="165" >
 
 </div>
- <!-- <img src="b6.jpg" width="240px" height="46px" >  -->
+
+<div class="top5">
+    <img src="b6.jpg" width="240px" height="46px" >
+    <div class="top41">
+        <ul>
+            <li><a href="">小家電</a></li>
+            <li><a href="">食品自用</a></li>
+            <li><a href="">運動戶外</a></li>
+            
+        </ul>
+    </div>
+
+    <img src="b19.jpg" width="250" height="70" >
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

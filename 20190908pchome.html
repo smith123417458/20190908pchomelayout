@@ -1,229 +1,288 @@
 <style>
+    .logo {
+        background: url(lo.png);
+        background-position: 0px 0px;
+        width: 165px;
+        height: 25px;
+    }
 
-.logo{
-    background: url(lo.png);
-    background-position: 0px 0px;
-     width: 165px;
-    height: 25px;
-}
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+    }
 
-ul{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    overflow: hidden;
-}
-
-li{
-    margin: 0;
-    padding: 0;
-    float: left;
-}
-
+    li {
+        margin: 0;
+        padding: 0;
+        float: left;
+    }
 
 
-.nav{
-    width: 1072px;
-    height: 24px;
-    /* border: 1px solid #000; */
-   
-    position: absolute;
-    top:0;
-    left: 165px;
-}
 
-.mainnav{
-    width: 396px;
-    height: 24px;
-    /* margin-left: 30px; */
-    /* border: 1px solid #000; */
-    float: left;
-}
-.mainnav li{
-    margin-left: 5px;
-    border-left: 1px solid gray;
+    .nav {
+        width: 1072px;
+        height: 24px;
+        /* border: 1px solid #000; */
 
-}
-.sidenav{
-    margin-left: 240px;
-    width: 431px;
-    height: 24px;
-    /* border: 1px solid #000; */
-    float: left;  
-}
-.header{
-    width:1240px;
-    height: 38px;
-    /* border: 1px solid #000; */
-    position: relative;
-    margin: 0 auto;
-}
+        position: absolute;
+        top: 0;
+        left: 165px;
+    }
+
+    .mainnav {
+        width: 396px;
+        height: 24px;
+        /* margin-left: 30px; */
+        /* border: 1px solid #000; */
+        float: left;
+    }
+
+    .mainnav li {
+        margin-left: 5px;
+        border-left: 1px solid gray;
+
+    }
+
+    .sidenav {
+        margin-left: 240px;
+        width: 431px;
+        height: 24px;
+        /* border: 1px solid #000; */
+        float: left;
+    }
+
+    .header {
+        width: 1240px;
+        height: 38px;
+        /* border: 1px solid #000; */
+        position: relative;
+        margin: 0 auto;
+    }
 
 
-.top{
-    width: 1240px;
-    height: 107px;
-     border:  1px solid #000;
-    margin: 0 auto;
-  
-}
+    .top {
+        width: 1240px;
+        height: 107px;
+        border: 1px solid #000;
+        margin: 0 auto;
 
-.top input{
-    margin: 5px;
-}
-.first{
-    width:220px;
-    height:105px;
-    /* border:1px solid #000; */
-    position: relative;
-    float: left;
+    }
 
-}
-.f1{width: 220px;
-     height: 15px;
-     /* border: 1px solid #000;   */
-}
+    .top input {
+        margin: 5px;
+    }
 
-.find{
-    width: 40px;
-    height: 26px;
-    /* border: 1px solid #000; */
-    position: absolute;
-    top: 17px;
-    right: 0px;
-}
+    .first {
+        width: 220px;
+        height: 105px;
+        /* border:1px solid #000; */
+        position: relative;
+        float: left;
 
-.cust{
-    background: url(he.png);
-    background-position: -175px -63px;
-     width: 76px;
-    height: 15px;
-}
-.cust1{
-    width: 138px;
-    height: 22px;
-    border: 1px solid #000;
-    position: absolute;
-    top: 41px;
-    right: 5px;
-}
-.cust1 a{
-    font-size: 12px;
-    color: gray;
-    margin-right: 3px;
-    margin-left: 7px;
-}
-.first img{
-    margin-top: 5px;
-}
-.f1 span{
-    color:red;
-    font-size: 12PX;
-    margin-left: 10PX;
-}
-.second{
-    background: url(ro.png) ;
-    background-position: -5px -117px;
-    float: left;
-    width: 134px;
-    height: 108px;
-}
-.top2{
-   width: 185px;
-   height: 490px;
-   margin-left: 43px;
-   float: left;
+    }
 
-}
-.top3  {
-    width: 492px;
-    height: 490px;
-    margin-left: 10px;
-    float: left;
-}
-.top31{
-    width: 492px;
-    height: 30px;
-    margin: 3px;
-    margin-left: 10px;
-    background-color: rgb(255, 225, 225);
-}
-.top31 a{
-    text-decoration: none;   
-}
-.top31 li{
-    /* margin-left: 10px; */
-    margin-right: 20px;
-    border-left: 1px solid gray;
-    border-right: 1px solid gray;  
-}
-.top31 li a:hover{
-    background-color: rgb(230, 132, 132);
-}
+    .f1 {
+        width: 220px;
+        height: 15px;
+        /* border: 1px solid #000;   */
+    }
+
+    .find {
+        width: 40px;
+        height: 26px;
+        /* border: 1px solid #000; */
+        position: absolute;
+        top: 17px;
+        right: 0px;
+    }
+
+    .cust {
+        background: url(he.png);
+        background-position: -175px -63px;
+        width: 76px;
+        height: 15px;
+    }
+
+    .cust1 {
+        width: 138px;
+        height: 22px;
+        border: 1px solid #000;
+        position: absolute;
+        top: 41px;
+        right: 5px;
+    }
+
+    .cust1 a {
+        font-size: 12px;
+        color: gray;
+        margin-right: 3px;
+        margin-left: 7px;
+    }
+
+    .first img {
+        margin-top: 5px;
+    }
+
+    .f1 span {
+        color: red;
+        font-size: 12PX;
+        margin-left: 10PX;
+    }
+
+    .second {
+        background: url(ro.png);
+        background-position: -5px -117px;
+        float: left;
+        width: 134px;
+        height: 108px;
+    }
+
+    .top2 {
+        width: 185px;
+        height: 490px;
+        margin-left: 43px;
+        float: left;
+
+    }
+
+    .top3 {
+        width: 492px;
+        height: 490px;
+        margin-left: 10px;
+        float: left;
+    }
+
+    .top31 {
+        width: 492px;
+        height: 30px;
+        margin: 3px;
+        margin-left: 10px;
+        background-color: rgb(255, 225, 225);
+    }
+
+    .top31 a {
+        text-decoration: none;
+    }
+
+    .top31 li {
+        /* margin-left: 10px; */
+        margin-right: 20px;
+        border-left: 1px solid gray;
+        border-right: 1px solid gray;
+    }
+
+    .top31 li a:hover {
+        background-color: rgb(230, 132, 132);
+    }
+    .top33 {
+        width: 492px;
+        height: 260px;
+        border: 1px solid #000;
+    }
+    .top34 {
+        width: 219px;
+        height: 76px;
+        border: 1px solid #000;
+        float: left;
+    }
+    .top34 img{
+        float: left;
+    }
+    .artic {
+        width: 87px;
+        height: 76px;
+        border: 1px solid #000;
+        float: left;
+    }
+
+    .artic a {
+        font-size: 12px;
+    }
+
+
+
+
+    .top4{
+        width: 296px;
+        height: 916px;
+        border: 1px solid #000;
+    }
+
+    .top41{
+        width: 250px;
+        height: 30px;
+        border: 1px solid #000;
+    }
+
+
+
+
+
 </style>
 
 <div class="header">
-<div class="logo">
-</div>
-<div class="nav">
-    <div class="mainnav">
-     <ul>
-         <li><a href=""> 線上購物  </a></li>
-         <li>   <a href=" "> 24h購物  </a>   </li>
-         <li> <a href="">  購物中心 </a>    </li>
-         <li>  <a href="">  書店   </a>         </li>
-         <li> <a href=" "> 日木代購 </a>   </li>
-         <li>  <a href="">    旅遊  </a>      </li>
-     </ul>
+    <div class="logo">
     </div>
-    <div class="sidenav">
-        <ul>
-            <li>  <a href="">  購物車   </a>    </li>
-            <li>  <a href="">   PcHome聯名卡   </a>     </li>
-            <li>  <a href="">  折價券   </a>     </li>
-            <li>  <a href="">    儲值  </a>     </li>
-            <li>  <a href=""> P幣     </a>     </li>
-            <li>  <a href=""> 現金積點    </a>     </li>
-            <li>  <a href=""> 顧客中心    </a>     </li>
-            <li>  <a href=""> 更多  </a>     </li>
-            
-        </ul>
+    <div class="nav">
+        <div class="mainnav">
+            <ul>
+                <li><a href=""> 線上購物 </a></li>
+                <li> <a href=" "> 24h購物 </a> </li>
+                <li> <a href=""> 購物中心 </a> </li>
+                <li> <a href=""> 書店 </a> </li>
+                <li> <a href=" "> 日木代購 </a> </li>
+                <li> <a href=""> 旅遊 </a> </li>
+            </ul>
+        </div>
+        <div class="sidenav">
+            <ul>
+                <li> <a href=""> 購物車 </a> </li>
+                <li> <a href=""> PcHome聯名卡 </a> </li>
+                <li> <a href=""> 折價券 </a> </li>
+                <li> <a href=""> 儲值 </a> </li>
+                <li> <a href=""> P幣 </a> </li>
+                <li> <a href=""> 現金積點 </a> </li>
+                <li> <a href=""> 顧客中心 </a> </li>
+                <li> <a href=""> 更多 </a> </li>
 
+            </ul>
+
+        </div>
     </div>
-</div>
 </div>
 <div class="top">
-        <div class="first">
-            <div class="f1">
-                設首頁  <span>購物滿$490 免運費</span>
-            </div>
-            <input type="text">
-           <div class="find">搜尋</div>
-           <div class="cust"></div>
-           <div class="cust1">
-               <ul>
-                   <li><a href="">查訂單</a></li>
-                   <li><a href="">退貨</a></li>
-                   <li><a href="">追蹤清單</a></li>
-               </ul>
-           </div>
-           <img src="disc.jpg" width="220px" height="17px">
+    <div class="first">
+        <div class="f1">
+            設首頁 <span>購物滿$490 免運費</span>
         </div>
-        <div class="second">
+        <input type="text">
+        <div class="find">搜尋</div>
+        <div class="cust"></div>
+        <div class="cust1">
+            <ul>
+                <li><a href="">查訂單</a></li>
+                <li><a href="">退貨</a></li>
+                <li><a href="">追蹤清單</a></li>
+            </ul>
         </div>
-        <img src="b1.jpg" width="432px" height="90px" >
-        <img src="b2.jpg" width="302px" height="90px" >
-      </div>
-<div class="top2">
-   <img src="b3.jpg"width="180px" height="46px" >
-   <img src="b7.jpg"width="180px" height="220px" >
-   <img src="b8.jpg"width="180px" height="220px" >
+        <img src="disc.jpg" width="220px" height="17px">
+    </div>
+    <div class="second">
+    </div>
+    <img src="b1.jpg" width="432px" height="90px">
+    <img src="b2.jpg" width="302px" height="90px">
 </div>
- <!-- <img src="b4.jpg" width="492px" height="46px" >
-   <img src="b5.jpg" width="296px" height="46px" >
-   <img src="b6.jpg" width="240px" height="46px" > -->
+<div class="top2">
+    <img src="b3.jpg" width="180px" height="46px">
+    <img src="b7.jpg" width="180px" height="220px">
+    <img src="b8.jpg" width="180px" height="220px">
+</div>
+
+   
 <div class="top3">
-    <img src="b4.jpg" width="492px" height="46px" >
+    <img src="b4.jpg" width="492px" height="46px">
     <div class="top31">
         <ul>
             <li><a href="">個人電腦</a></li>
@@ -235,7 +294,7 @@ li{
         </ul>
     </div>
 
-    <img src="b9.jpg" width="492" height="196" >
+    <img src="b9.jpg" width="492" height="196">
 
     <div class="top31">
         <ul>
@@ -247,13 +306,105 @@ li{
             <li><a href="">衣鞋包錶</a></li>
         </ul>
     </div>
-    <img src="b10.jpg" width="492" height="196" >
-  
+    <img src="b10.jpg" width="492" height="196">
+    <img src="b11.jpg" width="490" height="94">
+    <div class="top32">
+        <ul>
+            <li>精選頻道</li>
+        </ul>
+    </div>
+    <div class="top33">
+        <div class="top34">
+            <img src="b12.jpg" width="130" height="60">
+            <div class="artic">
+                <ul>
+                    <li><a href="">超值C+M組合 </a></li>
+                    <li><a href=""> 顯卡送背包 </a></li>
+                    <li><a href=""> 主板送側背包 </a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="top34">
+            <img src="b15.jpg" width="130" height="60">
+            <div class="artic">
+                <ul>
+                    <li><a href="">超值C+M組合 </a></li>
+                    <li><a href=""> 顯卡送背包 </a></li>
+                    <li><a href=""> 主板送側背包 </a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="top34">
+            <img src="b13.jpg" width="130" height="60">
+            <div class="artic">
+                <ul>
+                    <li><a href="">超值C+M組合 </a></li>
+                    <li><a href=""> 顯卡送背包 </a></li>
+                    <li><a href=""> 主板送側背包 </a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="top34">
+            <img src="b16.jpg" width="130" height="60">
+            <div class="artic">
+                <ul>
+                    <li><a href="">超值C+M組合 </a></li>
+                    <li><a href=""> 顯卡送背包 </a></li>
+                    <li><a href=""> 主板送側背包 </a></li>
+                </ul>
+            </div>
+        </div>
+    
+        <div class="top34">
+            <img src="b14.jpg" width="130" height="60">
+            <div class="artic">
+                <ul>
+                    <li><a href="">超值C+M組合 </a></li>
+                    <li><a href=""> 顯卡送背包 </a></li>
+                    <li><a href=""> 主板送側背包 </a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="top34">
+            <img src="b17.jpg" width="130" height="60">
+            <div class="artic">
+                <ul>
+                    <li><a href="">超值C+M組合 </a></li>
+                    <li><a href=""> 顯卡送背包 </a></li>
+                    <li><a href=""> 主板送側背包 </a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+
 
 
 
 
 </div>
 
+<div class="top4">
+    <img src="b5.jpg" width="296px" height="46px" >
+    <div class="top41">
+        <ul>
+            <li><a href="">小家電</a></li>
+            <li><a href="">食品自用</a></li>
+            <li><a href="">運動戶外</a></li>
+            <li><a href="">生活百貨</a></li>   
+        </ul>
+    </div>
+    
 
 
+
+
+
+
+
+
+
+
+</div>
+ <!-- <img src="b6.jpg" width="240px" height="46px" >  -->

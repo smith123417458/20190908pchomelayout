@@ -100,7 +100,19 @@
         position: relative;
 
     }
-
+    .block{
+        margin-top: 2px;
+        height: 108px;
+        background: url(bg.png) 0 -170px;
+        z-index: 1;
+    }
+    /* sup.sp{
+        width: 10px;
+        right: 0;
+        background-position: -420px 0;
+        height: 108px;
+        background:url(hp.png);
+    } */
     .top input {
         margin: 5px;
         width: 130px;
@@ -170,7 +182,7 @@
     }
     .b2{
         width: 420px;
-        height: 106px;
+        height: 90px;
         border: 1px solid #000;
         position: absolute;
         top:0;
@@ -188,11 +200,19 @@
         height: 60px;
         border: 1px solid #000;
         position: absolute;
-        top: 49px;
+        top: 22px;
         right: 5px;
         font-size: 12px;
     }
+    
+    .b2> a{
+     display: block;
+     width: 420px;
+     height: 16px;
+     background:url(hh.png) 0 -290px no-repeat;
 
+
+    }
 
     .top2 {
         width: 185px;
@@ -375,7 +395,7 @@
     .top51 {
         width: 250px;
         height: 18px;
-        /* border: 1px solid #000; */
+        
         background-color: rgb(255, 225, 225);
     }
 
@@ -412,12 +432,31 @@
        border: 1px solid #000;
    }
   .top431{
+      position: relative;
        width: 294px;
        height: 22px;
        border: 1px solid #000;
        background-image: url(bar.png)
   }
-
+  .top431:before{
+   content:'';
+   position: absolute;
+   left:80px;
+   display: inline-block;
+   width: 28px;
+   height: 22px;
+   background:url(time.gif)
+  }
+  
+  .top431 span{
+     display: block;
+     position: absolute;
+     bottom:0;
+     right: 12px;
+     width: 50px;
+     height: 18px;
+     background:url(diti.gif)
+  }
  
 
 
@@ -457,7 +496,9 @@
         </div>
     </div>
 </div>
-<div class="top">
+<div class="top block ">
+   <!-- <sup class="sp"></sup> -->
+
     <div class="first">
         <div class="f1">
             <a href="">設首頁 </a>
@@ -483,8 +524,8 @@
 
     <div class="b2">
 
-
-        <img src="b2.jpg" width="302px" height="90px">
+        <a href=""></a>
+        <img src="b2.jpg" width="302px" height="70px">
         <div class="art">
               <ul>
                   <li><a href=""> 刷卡限量優惠  </a></li>
@@ -644,7 +685,10 @@
         </div>
 
         <div class="top43">
-            <div class="top431"></div>
+            <div class="top431">
+            <span></span>
+
+            </div>
             <div class="top432">
                 <img src="b22.jpg" width="120" height="120" >
             </div>
@@ -686,9 +730,27 @@
         <div class="top52">
             <img src="b21.jpg" width="215" height="165">
         </div>
-
-        
+        <div class="top51">
+                <ul>
+                    <li><a href="">99嗨購</a></li>
+                    <li><a href="">恰恰最終戰</a></li>
+                    <li><a href="">智慧標籤</a></li>
+                </ul>
+            </div>
+         <div class="top52">
+            <img src="b23.jpg" width="215" height="165">
+       </div>
    
+       <div class="top51">
+            <ul>
+                <li><a href="">烤肉很輕鬆</a></li>
+                <li><a href="">各種用具</a></li>
+                <li><a href="">這裡買</a></li>
+            </ul>
+        </div>
+     <div class="top52">
+        <img src="b24.jpg" width="215" height="165">
+   </div>
 
 
 
